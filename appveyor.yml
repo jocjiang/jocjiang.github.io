@@ -5,10 +5,8 @@ environment:
     secure: k7kscd7SQPFgO9x5x9/H0cy3dg8D+V/Rzk+uiGlLNQSeaXmTSKnbfL+rEodDt46g
 
 install:
-  - ps: Install-Product node 6
   - node --version
   - npm --version
-  - npm install -g npm
   - npm install
   - npm install -g hexo
 
